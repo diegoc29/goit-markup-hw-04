@@ -25,17 +25,26 @@ body {
 
 .container{
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header{
     display: flex;
     align-items: center;
+
 }
 
 h1{
     font-weight: 900;
     font-size: 44px;
     line-height: 2.5;
+    margin-left: 210px;
+    margin-right: 220px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    text-align: center;
     color: var(--title-color)
 }
 
@@ -46,30 +55,24 @@ h3{
 
     color: var(--text-color)
 }
-
-h4 {
-    color: var(--brand-color);
-    margin-left: 50px;
-    padding-top: 50px;
-   
-}   
+ 
 
 
 .menu-list{
     display: flex;
-    align-items: center;
+    align-items: center;  
+    margin-left: 80px;
     
 }
 
 .menu-list li{
-    margin-right: 80px;
+    margin-right: 50px;
 
 }
 
 
 .menu-text{
     display: flex;
-    padding-left: 215px;
 }
 
 .menu-text article{
@@ -77,11 +80,6 @@ h4 {
     }
 
 p {
-    width: 270px;
-    height: 75px;
-    left: 215px;
-    top: 801px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -101,7 +99,7 @@ ul{
 }
 
 .equi{
-    padding: 37px;
+    justify-content: space-between;
 }
 
 
@@ -109,9 +107,16 @@ ul{
     font-size: 26px;
     line-height: 1.29;
     font-weight: 700;
-    padding-left: 215px;
     color: var(--brand-color)
     
+}
+
+.title-logo1{
+    font-size: 26px;
+    line-height: 1.29;
+    font-weight: 700;
+    padding-top: 50px;
+    color: var(--brand-color)
 }
 
 
@@ -143,7 +148,10 @@ ul{
     color: var(--title-color);
   
 }
-
+.section{
+    padding-bottom: 94px; 
+    padding-top: 94px; 
+}
 
 .title-text {
     font-size: 14px;
@@ -155,9 +163,7 @@ ul{
     font-size: 36px;
     line-height: 1.75;
     font-weight: 700;
-    padding-left: 619.43px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-left: 350px;
     color: var(--text-color);
 }
 
@@ -165,73 +171,68 @@ ul{
     font-size: 36px;
     line-height: 1.75;
     font-weight: 700;
-    padding-left: 669px;
-    padding-top: 50px;
+    margin-left: 400px;
     color: var(--text-color);
 }
 
 
 .title-img {
     width: 373.16px;
-    height: 13.48;
+    height: 323.7px;
     left: 618.42px;
     top: 1092.3px;
+    margin-left: 50px;
     display: flex;
-    padding-left: 215px;
+    justify-content: space-between;
 }
 .title-img img{
     padding: 37px;
 }
 
 .title-img1 {
-    width: 1600px;
-    height: 648px;
+    width: 1200px;
     left: 0px;
     top: 1510px;
     display: flex;
-    padding-left: 208px;
+    justify-content: space-between;
 }
 
 .title-img2 {
     width: 370px;
     height: 12.25;
     display: flex;
-    padding-left: 215px;
+    
 }
 
 .web {
-    padding: 30px;
-    
+    justify-content: space-between;
+    padding-left: 30px;
 }
 
 
 #banner{
     cursor: pointer;
-    width: 1600px;
+    width: 1200px;
     height: 600px;
     left: -4px;
     top: 80px;
-    padding-left: 400px;
-    padding-right: 530px;
-    padding-top: 100px;
-    text-align: center;
     background: #2F303A; 
 }
 
 
 #banner1{
     cursor: pointer;
-    width: 1600px;
+    width: 1200px;
     height: 252px;
     left: -4px;
     top: 80px;
-    padding-left: 165px;
+    margin-top: 47px;
     background: #2F303A;
 }
 
 #button{
     display: flex;
-    margin-left: 512px;
+    margin-left: 260px;
     border-radius: 4px;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -249,8 +250,8 @@ ul{
     height: 2.08;
     left: 666px;
     top: 430px;
-    margin-left: 200px;
-    margin-right: 701px;
+    margin-left: 460px;
+    text-align: center;
     
     background: #2196F3;
 }
