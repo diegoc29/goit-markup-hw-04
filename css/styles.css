@@ -2,6 +2,7 @@
     --brand-color:#2196F3; 
     --text-color:#212121;
     --title-color: #ffffff; 
+    --icons-color:#AFB1B8;
    
 }
 
@@ -9,12 +10,13 @@ article {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 700;
-    align-items: center;
-    padding-top: 95px;
     color: var(--text-color);
 }
 
-
+.article-icon{
+    width: 270px;
+    height: 120px;    
+}
 body {
     font-family: 'roboto',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     font-size: 16px;
@@ -23,45 +25,125 @@ body {
     color:#212121
 }
 
+b{
+    font-weight: 322;
+    line-height: 1.5;
+    display: flex;
+
+    color: var(--text-color)
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-one{
+    display: flex;
+    width: 270px;
+    padding: 32px;
+    color: var(--title-color);
+}
 .container{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+.container-social-networks{
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    padding: 12px;
+    color: var(--icons-color);
+    
+}
+
+.container-social-networks:hover{
+    background-color: #2196F3;
+
+}
+.container-social-networks:hover .social-networks{
+    fill: #ffffff;
+
+}
+
+.container-two:hover{
+    border: 1px solid #2196F3;
+    
+}
+
+.clientes{
+    width: 323px;
+    height: 36.98px;
+    margin-left: 500px;
+    color: var(--text-color);
+
+}
+.client-container:hover{
+    border: 1px solid #2196F3;
+}
+
+.client-container{
+    border: 1px #AFB1B8 solid;
+    border-radius: 4px;
+    width: 170px;
+    height: 81px;
+    padding: 14px 32px;
+
+}
+
+.client-container:hover .client-logo{
+    fill: #2196F3;
+}
+.client-logo{
+    width: 106px;
+    height: 52px;
+    fill: #AFB1B8;
+}
+
 header{
     display: flex;
     align-items: center;
-
+    padding-left: 10%;
+    border-bottom: #ffffff;
 }
 
 h1{
-    font-weight: 900;
     font-size: 44px;
-    line-height: 2.5;
-    margin-left: 210px;
-    margin-right: 220px; 
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 80px;
-    text-align: center;
+    line-height: 60px;
+    padding: 10px;
+   
+    
     color: var(--title-color)
 }
 
-
 h3{
-    font-weight: 322;
-    line-height: 1.5;
-
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 16px;
     color: var(--text-color)
 }
  
+.info{
+    display: flex;
+    margin-left: 5%;
+}
+.info li{
+    margin-right: 50px;
+}
+
+.info li >a{
+    text-decoration: none;
+}
 
 
 .menu-list{
     display: flex;
     align-items: center;  
-    margin-left: 80px;
     
 }
 
@@ -70,6 +152,9 @@ h3{
 
 }
 
+.menu-list li >a{
+    text-decoration: none;
+}
 
 .menu-text{
     display: flex;
@@ -98,8 +183,28 @@ ul{
     display: flex;
 }
 
+
 .equi{
     justify-content: space-between;
+    margin-right: 37px;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+      
+}
+.email{
+    width: 135px;
+    height: 16px;
+}
+
+.email-one{
+    width: 16px;
+    height: 12px;
+    fill: #AFB1B8;
+}
+
+.link:hover .email-one{
+    fill: #2196F3;
 }
 
 
@@ -107,18 +212,18 @@ ul{
     font-size: 26px;
     line-height: 1.29;
     font-weight: 700;
+    margin-right: 30px;
     color: var(--brand-color)
     
 }
 
 .title-logo1{
     font-size: 26px;
-    line-height: 1.29;
-    font-weight: 700;
+    line-height: 30.52px;
+    font-weight: 700px;
     padding-top: 50px;
     color: var(--brand-color)
 }
-
 
 .link {
     color: #212121;
@@ -137,41 +242,98 @@ ul{
 }
 
 .link:focus{
-    color: orange;
+    color: #2196F3;
 }
 
+.button:hover{
+    background-color: #2196F3;
+}
 
-.button {
+.button:focus{
+    color: #ffffff;
+}
+
+.button-one {
     font-size: 16px;
     line-height: 1.25;
     font-weight: 700;
+    border: none;
+    border-radius: 4px;
     color: var(--title-color);
+}
+.button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 4px;
+    color: var(--text-color);
+    
   
 }
 .section{
     padding-bottom: 94px; 
-    padding-top: 94px; 
+    padding-top: 94px;     
 }
+
+.section-one{
+    padding-bottom: 94px; 
+    padding-top: 94px;   
+    background: #F5F4FA;
+}
+.social-one{
+    width: 135px;
+    height: 16px;
+    margin-top: -150px;
+    margin-left: 480px;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+.social{
+    width: 206px;
+    height: 44px;
+    margin-top: 50px;
+    margin-left: 460px;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.social-networks{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.social-networks-one{
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
 
 .title-text {
     font-size: 14px;
-    line-height: 1.5;
-    font-weight: 700;
+    line-height: 24px;
+    font-weight: 400px;
     color: #757575;
 }
 .title-sub {
     font-size: 36px;
     line-height: 1.75;
     font-weight: 700;
-    margin-left: 350px;
+    text-align: center;
     color: var(--text-color);
 }
 
 .title-sub1 {
     font-size: 36px;
     line-height: 1.75;
-    font-weight: 700;
-    margin-left: 400px;
+    font-weight: 700px;
+    text-align: center;
     color: var(--text-color);
 }
 
@@ -181,28 +343,26 @@ ul{
     height: 323.7px;
     left: 618.42px;
     top: 1092.3px;
-    margin-left: 50px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 .title-img img{
-    padding: 37px;
+    margin-right: 30px;
 }
 
 .title-img1 {
     width: 1200px;
-    left: 0px;
+    height: 648px;
     top: 1510px;
     display: flex;
-    justify-content: space-between;
 }
 
 .title-img2 {
     width: 370px;
     height: 12.25;
     display: flex;
-    
 }
+
 
 .web {
     justify-content: space-between;
@@ -212,31 +372,28 @@ ul{
 
 #banner{
     cursor: pointer;
-    width: 1200px;
     height: 600px;
     left: -4px;
     top: 80px;
-    background: #2F303A; 
+    padding-left: 27%;
+    padding-right: 27%;
+    text-align: center;
+    background: #2F303A;  
 }
 
 
 #banner1{
     cursor: pointer;
-    width: 1200px;
     height: 252px;
-    left: -4px;
-    top: 80px;
-    margin-top: 47px;
+    padding-left: 10%;
     background: #2F303A;
+
 }
 
 #button{
-    display: flex;
-    margin-left: 260px;
+    display: flex;  
     border-radius: 4px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    
+    justify-content: center;
 }
 
 #button li{
@@ -247,11 +404,11 @@ ul{
 #button-main{
     cursor: pointer;
     width: 261px;
-    height: 2.08;
+    height: 50px;
     left: 666px;
     top: 430px;
-    margin-left: 460px;
-    text-align: center;
+    
+
     
     background: #2196F3;
 }

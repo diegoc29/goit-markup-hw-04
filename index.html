@@ -12,7 +12,7 @@
     <title>WebStudio</title>
 </head>
 <body>
-    <div class="container">
+    <div>
         <header>
             <nav>
                 <ul class="menu-list">
@@ -22,80 +22,78 @@
                     <li class="items"><a href="#" class="link">Сontactos</a></li>
                 </ul>    
             </nav>
-            <ul>
-                <svg>
-                    <use
-                      href="/images/icons-svg#icon-sobre-activable-1"
-                    ></use>
-                </svg>
-                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            </ul>
-            <ul>
-                <li><a href="tel:+525555296000" class="link">+52 55 5529 6000</a></li>
+            <ul class="info">
+                <li><a class="link" href="mailto:info@devstudio.com">
+                    <svg class="email-one">
+                        <use xlink:href="/images/icons-svg.svg#icon-sobre-activable-1"></use>
+                    </svg>
+                    info@devstudio.com
+                </a></li>
+                <li><a class="link" href="tel:+525555296000">
+                    <svg class="email-one">
+                        <use xlink:href="/images/icons-svg.svg#icon-telfono-inteligente-1"></use>
+                    </svg>+52 55 5529 6000</a></li>
             </ul>
         </header>
     </div>
-    <div class="container">
+    <div>
         <section id="banner" class="section">
             <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
             <br>
-            <button id="button-main" class="button">Solicite nuestro servicio</button>
+            <button id="button-main" class="button-one">Solicite nuestro servicio</button>
         </section>
     </div>
     <div class="container">
         <section class="menu-text section">
             <article id="article1">
-                <h3>ATENCIÓN A LOS DETALLES</h3>
+                <svg class="article-icon">
+                    <use xlink:href="/images/icons-svg.svg#icon-antena"></use>
+                </svg>
+                <b>ATENCIÓN A LOS DETALLES</b>
                 <p>Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.</p>
             </article>
             <article id="article2">
-                <h3 class="title-text">PUNTUALIDAD</h3>
+                <svg class="article-icon">
+                    <use xlink:href="/images/icons-svg.svg#icon-reloj"></use>
+                </svg>
+                <b class="title-text">PUNTUALIDAD</b>
                 <p>Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.</p>
             </article>
             <article id="article3">
-                <h3>PLANIFICACIÓN</h3>
+                <svg class="article-icon">
+                    <use xlink:href="/images/icons-svg.svg#icon-diagrama"></use>
+                </svg>
+                <b>PLANIFICACIÓN</b>
                 <p>Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
             </article>
             <article id="article4">
-                <h3>TEGNOLOGÍA MODERNA</h3>
+                <svg class="article-icon">
+                    <use xlink:href="/images/icons-svg.svg#icon-astronauta"></use>
+                </svg>
+                <b>TEGNOLOGÍA MODERNA</b>
                 <p>Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.</p>
             </article>
         </section>
     </div>
     <div class="container">
-        <svg>
-            <use
-              href="/images/icons-svg#icon-antena"
-            ></use>
-        </svg>
-        <svg>
-            <use
-              href="/images/icons-svg#icon-reloj"
-            ></use>
-        </svg>
-        <svg>
-            <use
-              href="/images/icons-svg#icon-diagrama"
-            ></use>
-        </svg>
-        <svg>
-            <use
-              href="/images/icons-svg#icon-astronauta"
-            ></use>
-        </svg>
         <section class="section">
             <div class="title-sub">
                 <h2>A qué nos dedicamos</h2>
             </div>
             <div class="title-img">
-                <img src="images/imagen1.jpg" width="373" alt="#"> 
+                <img src="images/imagen1.jpg" width="373" alt="#" >
+                <div>
+                    <svg>
+                        <use xlink:href="/images/icons-svg.svg#icon-etiqueta1"></use>
+                    </svg>
+                </div>
                 <img src="images/imagen2.jpg" width="373" alt="#">
                 <img src="images/imagen3.jpg" width="373" alt="#">
             </div>
         </section>
     </div>
     <div class="container">
-        <section class="section">
+        <section class="section-one">
             <div class="title-sub1">
                 <h2>Nuestro Equipo</h2>
             </div>          
@@ -104,26 +102,147 @@
                     <img src="images/imagen4.jpg" width="270" alt="Andrés Cubo/Diseñador de Productos">
                     <h3>Andres Cubo</h3>
                     <p>Diseñador de Productos</p>
+                    <div class="center-one">
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-twitter"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-facebook"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-linkedin"></use>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
                 <div class="equi">
                     <img src="images/imagen5.jpg" width="270" alt="Carla Palacios/Desarrolladora Frontend">
                     <h3>Carla Palacios</h3>
                     <p>Desarrolladora Frontend</p>
+                    <div class="center-one">
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-twitter"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-facebook"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-linkedin"></use>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
                 <div class="equi">
                     <img src="images/imagen6.jpg" width="270" alt="Mario Dorado/Marketing">
                     <h3>Mario Dorado</h3>
                     <p>Marketing</p>
+                    <div class="center-one">
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-twitter"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-facebook"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-linkedin"></use>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
                 <div class="equi">
                     <img src="images/imagen7.jpg" width="270" alt="Pablo Mijangos/Diseñador IU">
                     <h3>Pablo Mijangos</h3>
                     <p>Diseñador IU</p>
+                    <div class="center-one">
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-twitter"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-facebook"></use>
+                            </svg>
+                        </div>
+                        <div class="container-social-networks">
+                            <svg class="social-networks">
+                                <use xlink:href="/images/icons-svg.svg#icon-linkedin"></use>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
-    <div class="container">
+    <h2 class="clientes">Clientes Regulares</h2>
+    <div class="center">
+    <div class="client-container">
+        <svg class="client-logo">
+            <use xlink:href="/images/icons-svg.svg#icon-logo1"></use>
+        </svg>
+    </div>
+    <div class="client-container">
+        <svg class="client-logo">
+            <use xlink:href="/images/icons-svg.svg#icon-logo2"></use>
+        </svg>
+    </div>
+    <div class="client-container">
+        <svg class="client-logo">
+            <use xlink:href="/images/icons-svg.svg#icon-logo3"></use>
+        </svg>
+    </div>
+    <div class="client-container">
+        <svg class="client-logo">
+            <use xlink:href="/images/icons-svg.svg#icon-logo6"></use>
+        </svg>
+    </div>
+    <div class="client-container">
+        <svg class="client-logo">
+            <use xlink:href="/images/icons-svg.svg#icon-Logo5"></use>
+        </svg>
+    </div>
+    <div class="client-container">
+        <svg class="client-logo" >
+            <use xlink:href="/images/icons-svg.svg#icon-logo4"></use>
+        </svg>
+    </div>
+    </div>
+    <div class="container-one">
         <footer>
             <address id="banner1" class="link">
                 <ul class="title-logo1">
@@ -136,6 +255,29 @@
                         <li> <a href="+525555296000 " class="link"></a>+52 55 5529 6000</li>
                     </ul>
                 </div> 
+                <b class="social-one">ENCUENTRENOS EN</b>
+                <div class="social">
+                    <div class="container-social-networks">
+                        <svg class="social-networks-one">
+                            <use xlink:href="/images/icons-svg.svg#icon-instagram"></use>
+                        </svg>
+                    </div>
+                    <div class="container-social-networks">
+                        <svg class="social-networks-one">
+                            <use xlink:href="/images/icons-svg.svg#icon-twitter"></use>
+                        </svg>
+                    </div>
+                    <div class="container-social-networks">
+                        <svg class="social-networks-one">
+                            <use xlink:href="/images/icons-svg.svg#icon-facebook"></use>
+                        </svg>
+                    </div>
+                    <div class="container-social-networks">
+                        <svg class="social-networks-one">
+                            <use xlink:href="/images/icons-svg.svg#icon-linkedin"></use>
+                        </svg>
+                    </div>
+                </div>
             </address>
         </footer>
     </div>
