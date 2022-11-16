@@ -37,6 +37,7 @@ b{
     display: flex;
     justify-content: space-between;
     width: 1200px;
+    height: 166px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -384,9 +385,8 @@ ul{
 }
 
 .title-img1 {
-    width: 1200px;
-    height: 648px;
-    top: 1510px;
+    padding-left: 3%;
+    justify-content: center;
     display: flex;
 }
 
