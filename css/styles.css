@@ -225,9 +225,6 @@ ul{
     fill: #AFB1B8;
 }
 
-.fondo{
-    
-}
 .link:hover .email-one{
     fill: #2196F3;
 }
@@ -405,7 +402,8 @@ ul{
     padding-left: 27%;
     padding-right: 27%;
     text-align: center;
-    background: #2F303A;  
+    background: #2F303A; 
+    background: url(./../images/imagen-banner.png); 
 }
 
 
