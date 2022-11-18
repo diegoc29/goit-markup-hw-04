@@ -74,22 +74,22 @@ ul{
 .aplicaciones{
     position: absolute;
     width: 371px;
-    left: 75px;
-    top: 1615px;
+    left: 1px;
+    top: 210px;
 }
 
 .aplicaciones-one{
     position: absolute;
     width: 372px;
-    left: 479px;
-    top: 1615px;
+    left: 404px;
+    top: 210px;
 }
 
 .aplicaciones-two{
     position: absolute;
     width: 372px;
-    left: 881px;
-    top: 1615px;
+    left: 806px;
+    top: 210px;
 }
 
 .button:hover{
@@ -126,10 +126,9 @@ ul{
 .center{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
     height: 166px;
-    margin-left: auto;
-    margin-right: auto;
+    
+    
 }
 
 .center-one{
@@ -171,9 +170,7 @@ ul{
 }
 
 .clientes{
-    width: 323px;
     height: 36.98px;
-    margin-left: 500px;
     color: var(--text-color);
 
     font-weight: 700;
@@ -373,10 +370,9 @@ ul{
 
 
 .title-img {
-    width: 373.16px;
+    position: relative;
     height: 323.7px;
-    left: 215px;
-    top: 1092.3px;
+    
     display: flex;
     align-items: center;
 }
@@ -385,7 +381,6 @@ ul{
 }
 
 .title-img1 {
-    padding-left: 3%;
     justify-content: center;
     display: flex;
 }
