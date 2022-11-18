@@ -13,6 +13,59 @@ article {
     color: var(--text-color);
 }
 
+body {
+    font-family: 'roboto',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color:#212121
+}
+
+b{
+    font-weight: 322;
+    line-height: 1.5;
+    display: flex;
+
+    color: var(--text-color)
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    border-bottom: #ffffff;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 60px;
+    padding: 10px;
+   
+    
+    color: var(--title-color)
+}
+
+h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text-color)
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #757575;
+}
+
+ul{
+    list-style: none;
+    
+}
+
 .article-icon{
     width: 270px;
     height: 120px;    
@@ -39,21 +92,37 @@ article {
     top: 1615px;
 }
 
-body {
-    font-family: 'roboto',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+.button:hover{
+    color: #ffffff;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button:focus{
+    color: #ffffff;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button-one {
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    color: var(--title-color);
+}
+.button {
+    cursor: pointer;
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
-    color:#212121
+    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 4px;
+    color: var(--text-color);
 }
 
-b{
-    font-weight: 322;
-    line-height: 1.5;
-    display: flex;
-
-    color: var(--text-color)
-}
 .center{
     display: flex;
     justify-content: space-between;
@@ -98,9 +167,8 @@ b{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    
+ 
 }
-
 
 .clientes{
     width: 323px;
@@ -112,8 +180,8 @@ b{
     font-size: 36px;
     text-align: center;
     
-
 }
+
 .client-container:hover{
     border: 1px solid #2196F3;
 }
@@ -130,33 +198,31 @@ b{
 .client-container:hover .client-logo{
     fill: #2196F3;
 }
+
 .client-logo{
     width: 106px;
     height: 52px;
     fill: #AFB1B8;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    border-bottom: #ffffff;
+.equi{
+    justify-content: space-between;
+    margin-right: 37px;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+      
 }
 
-h1{
-    font-size: 44px;
-    line-height: 60px;
-    padding: 10px;
-   
-    
-    color: var(--title-color)
+.email{
+    width: 135px;
+    height: 16px;
 }
 
-h3{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--text-color)
+.email-one{
+    width: 16px;
+    height: 12px;
+    fill: #AFB1B8;
 }
  
 .info{
@@ -169,6 +235,34 @@ h3{
 
 .info li >a{
     text-decoration: none;
+}
+
+.imagenes-img{
+    display: flex;
+}
+
+.link:hover .email-one{
+    fill: #2196F3;
+}
+
+.link {
+    color: #212121;
+}
+
+.link:hover{
+    color: #2196F3;
+}
+
+.link1{
+    color:#fff;
+}
+
+.link1:hover{
+    color:#2196F3;
+}
+
+.link:focus{
+    color: #2196F3;
 }
 
 
@@ -195,129 +289,6 @@ h3{
 .menu-text article{
     margin-right: 30px;
     }
-
-p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-
-    color: #757575;
-}
-
-ul{
-    list-style: none;
-    
-}
-
-
-.imagenes-img{
-    display: flex;
-}
-
-
-.equi{
-    justify-content: space-between;
-    margin-right: 37px;
-    text-align: center;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-      
-}
-.email{
-    width: 135px;
-    height: 16px;
-}
-
-.email-one{
-    width: 16px;
-    height: 12px;
-    fill: #AFB1B8;
-}
-
-.link:hover .email-one{
-    fill: #2196F3;
-}
-
-
-.title-logo {
-    font-size: 26px;
-    line-height: 1.29;
-    font-weight: 700;
-    margin-right: 30px;
-    color: var(--brand-color)
-    
-}
-
-.title-logo1{
-    font-size: 26px;
-    line-height: 30.52px;
-    font-weight: 700;
-    padding-top: 50px;
-    color: var(--brand-color)
-}
-
-.link {
-    color: #212121;
-}
-
-.link:hover{
-    color: #2196F3;
-}
-
-.link1{
-    color:#fff;
-}
-
-.link1:hover{
-    color:#2196F3;
-}
-
-.link:focus{
-    color: #2196F3;
-}
-
-.button:hover{
-    color: #ffffff;
-    background: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.button:focus{
-    color: #ffffff;
-    background: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.button-one {
-    font-size: 16px;
-    line-height: 1.25;
-    font-weight: 700;
-    border: none;
-    border-radius: 4px;
-    color: var(--title-color);
-}
-.button {
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    border: none;
-    border-radius: 4px;
-    color: var(--text-color);
-    
-  
-}
-
-  .oscurecer {
-    background: 
-      linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url(./../images/imagen-banner.jpg); 
-  }
 
 
 .section{
@@ -361,6 +332,22 @@ ul{
     fill: #FFFFFF;
 }
 
+.title-logo {
+    font-size: 26px;
+    line-height: 1.29;
+    font-weight: 700;
+    margin-right: 30px;
+    color: var(--brand-color)
+    
+}
+
+.title-logo1{
+    font-size: 26px;
+    line-height: 30.52px;
+    font-weight: 700;
+    padding-top: 50px;
+    color: var(--brand-color)
+}
 
 .title-text {
     font-size: 14px;
@@ -388,7 +375,7 @@ ul{
 .title-img {
     width: 373.16px;
     height: 323.7px;
-    left: 618.42px;
+    left: 215px;
     top: 1092.3px;
     display: flex;
     align-items: center;
@@ -427,7 +414,13 @@ ul{
     text-align: center;
     background: #2F303A; 
     background: url(./../images/imagen-banner.jpg); 
-    
+     background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url(./../images/imagen-banner.jpg); 
+
 }
 
 
