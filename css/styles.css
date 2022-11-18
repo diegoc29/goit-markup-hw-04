@@ -189,6 +189,7 @@ h3{
 
 .menu-text{
     display: flex;
+   
 }
 
 .menu-text article{
@@ -308,6 +309,17 @@ ul{
     
   
 }
+
+  .oscurecer {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(./../images/imagen-banner.jpg); 
+  }
+
+
 .section{
     padding-bottom: 94px; 
     padding-top: 94px;     
